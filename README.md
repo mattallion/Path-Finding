@@ -8,7 +8,7 @@ Uses greedy and A* search algorithms (with two different heuristics) to find a p
        - each starting grid has a starting position and a goal position 
        - additionally, the grid has a boundary and randomly generated obstacles located within the grid
      - pathfinding_a_out.txt and pathfinding_b_out.txt are the solved versions of these maps/grids
-     - pathfinding.py uses both greedy and A* search algorithms to find solutions
+       - pathfinding.py uses both greedy and A* search algorithms to find solutions
 
 How to Interpret Output Files:
  - X = border surrounding map + randomly generated obstacles within grid
