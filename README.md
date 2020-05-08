@@ -1,5 +1,5 @@
 # Path-Finding
-Uses greedy and A* search algorithms to find a path to a goal.
+Uses greedy and A* search algorithms (with two different heuristics) to find a path from a starting location to a goal.
  
   1. Download pathfinding.py and path_creator.py
   2. Run pathfinding.py and complete the prompts in the console
@@ -16,3 +16,6 @@ How to Interpret Output Files:
  - S = starting position
  - G = goal position
  - P = path travelled to reach goal from start
+
+'a' files only allow 4-directional movement (up, down, left, right) and use the Manhattan heuristic.
+'b' files allow for diagonal movement as well, and use the Chebyshev heuristic.
