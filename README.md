@@ -17,5 +17,6 @@ How to Interpret Output Files:
  - G = goal position
  - P = path travelled to reach goal from start
 
-'a' files only allow 4-directional movement (up, down, left, right) and use the Manhattan heuristic.
-'b' files allow for diagonal movement as well, and use the Chebyshev heuristic.
+Difference between 'a' and 'b' Files:
+- 'a' files only allow 4-directional movement (up, down, left, right) and use the Manhattan heuristic.
+- 'b' files allow for diagonal movement as well, and use the Chebyshev heuristic.
