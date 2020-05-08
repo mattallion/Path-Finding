@@ -11,8 +11,8 @@ Uses greedy and A* search algorithms to find a path to a goal.
         pathfinding.py uses both greedy and A* search algorithms to find solutions.
 
 How to Interpret Output Files:
- X = border surrounding map + randomly generated obstacles within grid
- _ = empty spaces on grid
- S = starting position
- G = goal position
- P = path travelled to reach goal from start
+ - X = border surrounding map + randomly generated obstacles within grid
+ - _ = empty spaces on grid
+ - S = starting position
+ - G = goal position
+ - P = path travelled to reach goal from start
